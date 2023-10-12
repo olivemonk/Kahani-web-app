@@ -1,9 +1,10 @@
-import { Button } from "@nextui-org/button";
+import React from "react";
+import Landing from "./components/Landing";
 
 export default function Home() {
   return (
     <div className="h-screen">
-      <Button>Click me</Button>
+      <Landing />
     </div>
   );
 }

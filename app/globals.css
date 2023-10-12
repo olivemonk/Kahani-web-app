@@ -25,3 +25,16 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+.animate-float {
+  animation: float 2s infinite; /* Adjust the duration as needed */
+  transition: transform 0.1s ease-in-out;
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px); /* Adjust the vertical float distance */
+  }
+}
